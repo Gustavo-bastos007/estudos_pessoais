@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connectify</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">Connectify</div>
+        <div class="header-icons">
+            <i class="fas fa-bell"></i>
+            <a href="perfil.html"><i class="fas fa-user-circle"></i></a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="feed">
+            <!-- Card: Serviços -->
+            <div class="card">
+                <img src="images/servicos.jpg" alt="Serviços Locais">
+                <div class="card-content">
+                    <h3>Serviços Locais</h3>
+                    <p>Encontre prestadores de serviços confiáveis perto de você.</p>
+                    <button onclick="window.location.href='servicos.html'">Ver Serviços</button>
+                </div>
+            </div>
+            <!-- Card: Denúncias -->
+            <div class="card">
+                <img src="images/denuncias.jpg" alt="Denúncias Urbanas">
+                <div class="card-content">
+                    <h3>Denúncias Urbanas</h3>
+                    <p>Relate problemas urbanos como buracos ou falta de iluminação.</p>
+                    <button onclick="window.location.href='denuncias.html'">Relatar Agora</button>
+                </div>
+            </div>
+            <!-- Card: Eventos -->
+            <div class="card">
+                <img src="images/eventos.jpg" alt="Eventos Locais">
+                <div class="card-content">
+                    <h3>Eventos Locais</h3>
+                    <p>Participe de feiras, bazares e eventos comunitários.</p>
+                    <button onclick="window.location.href='eventos.html'">Ver Eventos</button>
+                </div>
+            </div>
+            <!-- Card: Mercado -->
+            <div class="card">
+                <img src="images/mercado.jpg" alt="Mercado Comunitário">
+                <div class="card-content">
+                    <h3>Mercado Comunitário</h3>
+                    <p>Venda ou troque itens com sua comunidade.</p>
+                    <button onclick="window.location.href='mercado.html'">Explorar Mercado</button>
+                </div>
+            </div>
+            <!-- Card: Ajuda -->
+            <div class="card">
+                <img src="images/ajuda.jpg" alt="Ajuda Comunitária">
+                <div class="card-content">
+                    <h3>Ajuda Comunitária</h3>
+                    <p>Ofereça ou solicite ajuda para atividades do dia a dia.</p>
+                    <button onclick="window.location.href='ajuda.html'">Participar</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <a href="index.html" class="active">
+            <i class="fas fa-home"></i>
+            <span>Início</span>
+        </a>
+        <a href="mercado.html">
+            <i class="fas fa-shopping-cart"></i>
+            <span>Mercado</span>
+        </a>
+        <a href="eventos.html">
+            <i class="fas fa-calendar-alt"></i>
+            <span>Eventos</span>
+        </a>
+        <a href="denuncias.html">
+            <i class="fas fa-exclamation-circle"></i>
+            <span>Denúncias</span>
+        </a>
+        <a href="ajuda.html">
+            <i class="fas fa-hands-helping"></i>
+            <span>Ajuda</span>
+        </a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

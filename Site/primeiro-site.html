@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gustavo</title> <!-- Título da página no navegador -->
+
+    <style>
+        /* Estilo geral do corpo */
+        body {
+           
+            background-color: white ;
+            font-family: 'Roboto', sans-serif; /* Fonte principal */
+            line-height: 1.6; /* Espaçamento entre as linhas */
+            margin: auto;
+            padding: 0;
+        }
+
+        /* Estilo do cabeçalho */
+        header  {
+            font-family: 'Lora', serif; /* Fonte específica para o título */
+            font-size: 2em; /* Tamanho do texto */
+            background-color: #5e3d9c; /* Cor de fundo roxa */
+            color: white; /* Cor do texto branca */
+            text-align: center; /* Centraliza o texto */
+            padding: 2em; /* Espaçamento interno */
+            margin: auto; /* margens automatica */
+        }
+
+        /* Estilo da navegação */
+        nav ul {
+            list-style: none; /* Remove marcadores da lista */
+            text-align: center; /* Centraliza os itens */
+            padding: 0; /* Remove espaçamento interno */
+        }
+
+        /* Estilo dos links de navegação */
+        nav ul a {
+            text-decoration: none; /* Remove o sublinhado dos links */
+            color: #28a745; /* Cor verde para os links */
+            font-weight: bold; /* Negrito nos links */
+            margin: 0 1em; /* Espaçamento entre os links */
+        }
+
+        /* Estilo dos títulos das seções */
+        section h2 {
+            text-align: center; /* Centraliza o título */
+            font-family: 'Lora', serif; /* Fonte específica */
+            font-size: 1.5rem; /* Tamanho do texto */
+            margin: auto; 
+        }
+
+        /* Estilo dos parágrafos */
+        p {
+            text-align: justify; /* Justifica o texto */
+            text-indent: 30px; /* Recuo da primeira linha */
+            margin: auto; 
+        }
+
+        /* Estilo do rodapé */
+        footer {
+            color: white; /* Cor do texto no rodapé */
+            background-color: #49278a; /* Cor de fundo roxa escura */
+            text-align: center; /* Centraliza o texto */
+            padding: 1em; /* Espaçamento interno */
+
+            p {
+                text-align: center; /* Centraliza o texto */
+            }
+        }
+
+        /* Estilo das imagens */
+        img {
+            display: block; /* Exibe a imagem como um bloco */
+            margin: 1em auto; /* Centraliza a imagem */
+            max-width: 100%; /* Limita a largura máxima */
+            height: auto; /* Ajusta a altura automaticamente */
+        }
+
+        /* Estilo para o bloco lateral (aside) */
+        aside {
+            margin: 1em; /* Espaçamento em volta */
+        }
+
+        /* Estilo para tabelas */
+        table {
+            width: 100%; /* Largura total */
+            border-collapse: collapse; /* Remove espaçamento entre as bordas */
+            margin: 1em auto; /* Centraliza a tabela */
+        }
+
+        /* Estilo para cabeçalhos e células das tabelas */
+        th, td {
+            border: 1px solid #ddd; /* Borda fina e cinza */
+            padding: 0.5em; /* Espaçamento interno */
+            text-align: left; /* Alinha o texto à esquerda */
+        }
+
+        /* Estilo do cabeçalho da tabela */
+        th {
+            background-color: #f4f4f4; /* Fundo cinza claro */
+        }
+
+        /* Estilo para formulários */
+        form {
+            margin: 1em auto; /* Centraliza o formulário */
+            width: 90%; /* Largura de 90% da tela */
+            max-width: 500px; /* Largura máxima */
+            
+        }
+
+        /* Estilo para rótulos e campos de entrada */
+        label, input, textarea, select {
+            display: block; /* Cada elemento ocupa uma linha */
+            width: 100%; /* Largura maxima */
+            margin-bottom: 1em; /* Espaçamento abaixo */
+            text-align: center;
+        }
+
+        /* Estilo do botão de envio */
+        input[type="submit"] {
+            width: auto; /* Ajusta a largura para o conteúdo */
+            background-color: #28a745; /* Cor de fundo verde */
+            color: white; /* Cor do texto branca */
+            padding: 0.5em 1em; /* Espaçamento interno */
+            border: none; /* Remove borda padrão */
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Gustavo Bastos</h1>
+        <nav>
+            <ul>
+                <!-- Links de navegação para diferentes seções -->
+                <a href="#sobre">Sobre mim</a>
+                <a href="#projeto">Projeto</a>
+                <a href="#contato">Contato</a>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção Sobre -->
+    <section id="sobre">
+        <br><!--Pula linha-->
+        <h2>Sobre mim</h2> <!--Titulo menor que h1-->
+        <p>
+            Olá, meu nome é Gustavo, tenho 19 anos e estou cursando Análise e Desenvolvimento de Sistemas na Udesc.
+            Atualmente, atuo como aprendiz no squad de desenvolvimento da empresa Mercos, onde adquiro e aplico conhecimento na área de desenvolvimento.
+        </p>
+        <!-- Imagem representando o autor -->
+        <img src="gusta.jpg" alt="Foto de perfil Gustavo">
+
+        <aside>
+            <h2>Habilidades</h2> <!-- Lista das principais habilidades -->
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </aside>
+    </section>
+
+    <!-- Seção Projeto -->
+    <section id="projeto">
+        <h2>Projeto</h2>
+        <article>
+            <h3>Portfólio</h3>
+            <p>Este foi o primeiro projeto desenvolvido, estudando Front-End, usando HTML5 E CSS.</p>
+        </article>
+    </section>
+
+    <!-- Seção Habilidades -->
+    <section>
+        <h2>Habilidades e Tecnologias</h2>
+        <table><!--Table é a tag de tabela-->
+            <thead> <!-- Cabeçalho da tabela -->
+                <tr><!--Uma linha-->
+                    <th>Tecnologia</th> <!--Th=colunas da tabela-->
+                    <th>Nível</th>
+                    <th>Descrição</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Corpo da tabela -->
+                 <!--Linhas-->
+                <tr>
+                    <td>HTML</td>
+                    <td>Iniciante</td>
+                    <td>Criação de sites simples usando HTML5</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Iniciante</td>
+                    <td>Criação de sites simples usando CSS3</td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </section>
+
+    <!-- Rodapé  final da página-->
+    <footer>
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Tem um projeto em mente? Entre em contato:</p>
+            <address>
+                <!-- Informações de contato -->
+                Email: <a href="mailto:gusthavo753@gmail.com">gusthavo753@gmail.com</a><br>
+                Telefone: <a href="tel:+5547991533290">47991533290</a>
+                <!--Mailton e tel transfoma em link-->
+            </address>
+            <p>Ou preencha o formulário abaixo:</p>
+
+            <!-- Formulário de contato -->
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" required>
+
+                <label for="assunto">Assunto:</label>
+                <select id="assunto" name="assunto">
+                    <option value="duvida">Dúvida</option>
+                    <option value="orcamento">Orçamento</option>
+                    <option value="outros">Outros</option>
+                </select>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+                <input type="checkbox" name="inscricao" id="inscricao">
+                <label for="inscricao">Deseja receber minha Newsletter? Se sim, selecione a caixinha acima</label>
+
+                <!-- Botão de envio -->
+                <input type="submit" value="Enviar mensagem">
+            </form>
+
+           <!-- Tag direitos reservados--> 
+            <footer> 
+                <p>&copy; 2025 Todos os direitos reservados a Gustavo Bastos
+
+                </p> 
+            </footer>
+
+        </section>
+    </footer>
+</body>
+
+</html>
